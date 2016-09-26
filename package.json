@@ -1,8 +1,9 @@
 {
   "name": "font-preloader",
   "version": "1.0.0",
-  "description": "A simple module which takes an array of font-family names as input, and quickly adds an empty span with each font-family to an invisible div in the body of your web page. This forces the web browser to preload those fonts, and then the module removes the div completely.",
+  "description": "A simple module which takes an array of font-family names as input, and makes the browser preload them.",
   "main": "index.js",
+  "repository": "https://github.com/mitchellcunha/font-preloader",
   "scripts": {
     "lint": "eslint -c ./.eslintrc lib",
     "install": "babel lib --presets babel-preset-es2015 --out-dir dist",
