@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint -c ./.eslintrc lib",
     "install": "babel lib --presets babel-preset-es2015 --out-dir dist",
-    "release": "npm run lint && npm run install && npm version patch"
+    "release": "npm run lint && npm run install && npm version patch && npm publish"
   },
   "keywords": [
     "font",
