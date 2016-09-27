@@ -1,6 +1,6 @@
 {
   "name": "font-preloader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple module which takes an array of font-family names as input, and makes the browser preload them.",
   "main": "index.js",
   "repository": "https://github.com/mitchellcunha/font-preloader",
